@@ -10,6 +10,7 @@ function NewKegForm(props) {
       brand: e.target.brand.value,
       price: e.target.price.value,
       abv: e.target.abv.value,
+      glassesLeft: 124,
       id: v4()
     });
   }
