@@ -26,11 +26,7 @@ Upon launch there will be no Kegs to pour from. You can add as many kegs as you 
 ```
 (Users/Username/Desktop/TapRoom)
 ```
-* cd into the tap-room folder
-```
-cd tap-room
-```
-* run npm install while in the tap-room folder
+* run npm install while in the TapRoom folder
 ```
 npm install
 ```
