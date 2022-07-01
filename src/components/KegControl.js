@@ -5,6 +5,7 @@ import KegDetails from './KegDetails';
 
 class KegControl extends React.Component{
   constructor(props){
+    super(props);
     this.state = {
       formVisibleOnPage: false,
       mainKegList: [],
@@ -46,8 +47,8 @@ class KegControl extends React.Component{
     }
     return (
       <React.Fragment>
-        {currentlyVisibleState};
-        <button onClick = {this.handleClick}>{buttonText}</button>;
+        {currentlyVisibleState}
+        <button onClick = {this.handleClick}>{buttonText}</button>
       </React.Fragment>
     )
   }

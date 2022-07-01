@@ -16,10 +16,10 @@ function NewKegForm(props) {
   return (
     <React.Fragment>
       <form onSubmit = {handleNewKegFormSubmission}>
-        <input type="text" name="name" placeholder="Vitus" />
-        <input type="text" name="brand" placeholder="Weihenstephaner" />
-        <input type="number" name="price"/>
-        <input type="number" name="abv" />
+        Name <input type="text" name="name" placeholder="Vitus" />
+        Brauerei <input type="text" name="brand" placeholder="Weihenstephaner" />
+        Kosten <input type="text" name="price"/>
+        Alkoholgehalt <input type="text" name="abv" />
         <button type="submit">Fass hinzufügen</button>
       </form>
     </React.Fragment>

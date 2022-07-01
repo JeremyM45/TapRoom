@@ -6,7 +6,7 @@ function KegDetails(props) {
   return (
     <React.Fragment>
       <h3>Fass-Beiwerk</h3>
-      <h6>{keg.name} : {keg.brand}</h6>
+      <h4>{keg.name} : {keg.brand}</h4>
       <p>kosten :{keg.price}</p>
       <p>Alkoholgehalt :{keg.abv}%</p>
       <button onClick={() => onClickingDelete(keg.id)}>Fass entfernen</button>
