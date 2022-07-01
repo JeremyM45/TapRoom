@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# _TapRoom_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By _**Jeremy Martin**_
 
-## Available Scripts
+#### _A German pub website built in React. Add kegs, pour glasses, watch the keg's beer amount decrease_
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+* JavaScript
+* React
+* JSX
+* NPM
+* HTML
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Upon launch there will be no Kegs to pour from. You can add as many kegs as you want, click on the keg in the list to view details where you can delete and pour from. This website's text is entirely in German so you may want to follow the instructions closely to navigate it.  
 
-### `npm test`
+## Setup/Installation Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started
 
-### `npm run build`
+* Clone repo from GitHub using this link (https://github.com/JeremyM45/TapRoom)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Navigate to the TapRoom folder in terminal
+```
+(Users/Username/Desktop/TapRoom)
+```
+* cd into the tap-room folder
+```
+cd tap-room
+```
+* run npm install while in the tap-room folder
+```
+npm install
+```
+* once has finished installing necessary packages run npm start to launch the website
+```
+npm start
+```
+* The website should now open in your browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Navigating The Site
+* To add a keg click on the button that says "ein Fass hinzufügen"
+* Fill out the form with name, brewery, price, and alcohol content. 
+	* (Name = name, Brauerei = brewery, Kosten = price, and Alkoholgehalt = alcohol content)
+	* Click the button that says "Fass hinzufügen" to submit
+	* To return to the main Keg list click on the button that says "zurück zur Fassliste"
+* Click in the area of the Keg's description to display it's details
+	* To pour a glass click on the button that says "gießen ein gläse"
+	* To Delete the Keg click on the button that says "Fass entfernen"
+	* To return to the main Keg list click on the button that says "zurück zur Fassliste"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Component Tree
+![Component Diagram](https://i.gyazo.com/09e9eff04f33246de1d269e2e1fd5fee.png)
+## Known Bugs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*  _No Known Bugs_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[MIT](https://opensource.org/licenses/MIT)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) _2022_  _Jeremy Martin_
